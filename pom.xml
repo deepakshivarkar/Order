@@ -9,7 +9,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Order-Microservice</name>
+	<name>Order</name>
 	<description>OrderManagement Microservice</description>
 
 	<parent>
@@ -27,7 +27,7 @@
  <sonar.projectKey>deepakshivarkar_Order</sonar.projectKey>
   <sonar.organization>deepak</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>605f86f960b2a99e7c5ab9fc48c4c208fc8bf9ee</sonar.login>	</properties>
+  <sonar.login>11b7bd4e7d75c7f8b63fd86f7d261b9b83e7e80b</sonar.login>	</properties>
 <dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -47,10 +47,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-</dependency>  
+</dependency> -->  
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -59,7 +59,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core</artifactId>
     <version>5.3.7.Final</version>
@@ -67,7 +67,7 @@
 		<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-</dependency>
+</dependency> -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

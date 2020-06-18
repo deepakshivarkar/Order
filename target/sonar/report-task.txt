@@ -1,0 +1,7 @@
+organization=deepak
+projectKey=deepakshivarkar_Order
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.8683
+dashboardUrl=https://sonarcloud.io/dashboard?id=deepakshivarkar_Order
+ceTaskId=AXLB53Pg13InHy2SCzK5
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXLB53Pg13InHy2SCzK5

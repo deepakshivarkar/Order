@@ -27,7 +27,7 @@
  <sonar.projectKey>deepakshivarkar_Order</sonar.projectKey>
   <sonar.organization>deepak</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>11b7bd4e7d75c7f8b63fd86f7d261b9b83e7e80b</sonar.login>	</properties>
+  <sonar.login>bb15d9d221d63709b9596abd025a60609e41df3e</sonar.login>	</properties>
 <dependencyManagement>
 		<dependencies>
 			<dependency>
